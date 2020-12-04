@@ -5,9 +5,11 @@ Colab description: *https://colab.research.google.com/drive/1XQhroKiA16F3tn2QSVC
 
 ## Usage
 ### Step 1
-Utilize exportframe.py to obtain court dimensions from the video frame. That will be used to change the 3D court video to 2D.
+Utilize exportframe.py to obtain court dimensions from the video frame. This file will save a picture frame to the output directory. 
+
 **Example:** *python3 exportframe.py --video_path=./resources/video01.mp4*
-Once the frame picture has been exported, use a picture editing tool to identify vertices of the court and provide them as input to the heatmap file.
+
+Once the frame picture has been exported, use a picture editing tool to identify the four vertices as shown in the image below. Provide these vertices to the heat map file below. 
 
 <img src="resources/images/vertex_identification.png" width="500">
 
