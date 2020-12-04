@@ -20,4 +20,4 @@ Once vertices are available, us the main heatmap file with coordinates and a vid
 
 The sample outlook will look like the picture below. The heatmaps can be studied and used for coaching. 
 
-<img src="resources/images/sample_output.png" width="500">
+<img src="resources/images/sample_output.png" width="900">
