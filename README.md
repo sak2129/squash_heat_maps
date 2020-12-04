@@ -15,5 +15,9 @@ Once the frame picture has been exported, use a picture editing tool to identify
 
 ### Step 2
 Once vertices are available, us the main heatmap file with coordinates and a video path to process the video. 
+
 **Example:** *python3 squash_heat_map.py --video_path='./resources/video02.mp4' --coordinates=[[434,285],[830,285],[927,458],[340,457]] --verbose=TRUE*
 
+The sample outlook will look like the picture below. The heatmaps can be studied and used for coaching. 
+
+<img src="resources/images/sample_output.png" width="500">
